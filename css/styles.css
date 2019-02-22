@@ -1,4 +1,11 @@
 body {
-  background: url("../images/img.jpg")
+  background: url("../images/img.jpg");
   background-size: cover;
+  color: black;
+}
+h1{
+  border-right: auto;
+  border-left: auto;
+  border: brown;
+
 }
