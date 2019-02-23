@@ -1,11 +1,17 @@
 body {
-  background: url("../images/img.jpg");
+  background: url("../images/books.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   color: black;
 }
 h1{
   border-right: auto;
   border-left: auto;
   border: brown;
+
+}
+
+#info {
+  width: 487px;
 
 }
