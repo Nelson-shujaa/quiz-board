@@ -3,6 +3,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
+  background-position: center;
+  
+
+
+
+  }
 }
 h1{
   border-right: auto;
