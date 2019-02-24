@@ -4,10 +4,6 @@ body {
   background-repeat: no-repeat;
   color: black;
   background-position: center;
-  
-
-
-
   }
 }
 h1{
@@ -20,4 +16,9 @@ h1{
 #info {
   width: 487px;
 
+}
+
+.panel {
+  background-color: light blue;
+  
 }
