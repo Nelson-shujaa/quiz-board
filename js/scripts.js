@@ -16,7 +16,7 @@ $(document).ready(function(){
     //user interface logic
 
       var total = question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8 + question9 + question10
-      alert(total);
+
       document.getElementById("output").innerHTML = "Hurrrayyyyy you have scored " + total+ "%";
       event.preventDefault();
   });
