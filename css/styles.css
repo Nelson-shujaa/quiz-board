@@ -20,5 +20,9 @@ h1{
 
 .panel {
   background-color: light blue;
-  
+
+}
+
+.form-group {
+  padding: 30px;
 }
