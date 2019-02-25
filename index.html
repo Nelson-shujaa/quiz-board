@@ -10,130 +10,140 @@
   </head>
   <body>
 
-    <div class="container">
+
       <div class="jumbotron">
         <h1>Welcome to the javascript finals!!</h1>
+        <form class="details">
+          <input type="text" id="Name"placeholder="Enter your name">
+          <br>
+          <input type="text" id="mail" placeholder="Enter your email adress">
+          <br>
+          <input type="date" id="date" placeholder="Enter the test date">
+          <br>
+          <button type="button" id="start"class="btn btn-primary" >click to start</button>
 
+
+        </form>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel">
-            <form class="quiz">
-              <h4>Tick the correct abbreviation</h4>
-              <div class="question1">
-                <label>
-                <input type="radio" name="abb" value="0">hmtl</label><br>
-                <label><input type="radio" name="abb" value="10">HTML</label><br>
-               <label><input type="radio" name="abb" value="0">THML</label><br>
-              </div>
-            </div>
 
-          </div>
-
-             <div class="panel">
-               <h4>When was javascript created</h4>
-               <div class="question2">
-                   <label>
-                   <input type="radio" name="ques2" value="0">1990</label><br>
-                   <label><input type="radio" name="ques2" value="10">1995</label><br>
-                   <label><input type="radio" name="ques2" value="0">1999</label><br>
-               </div>
-             </div>
-
-             <div class="panel">
-               <h4>Which one of these is not a javascript data type: </h4>
-               <div class="question3">
-                 <label>
-                 <input type="radio" name="ques3" value="0">boolean</label><br>
-                 <label><input type="radio" name="ques3" value="0">String</label><br>
-                <label><input type="radio" name="ques3" value="0">undefined</label><br>
-                 <label><input type="radio" name="ques3" value="10">html</label><br>
-               </div>
-             </div>
-
-             <div class="panel">
-               <h4>How do we add elements into an array</h4>
-               <div class="question4">
-                 <label>
-                 <input type="radio" name="ques4" value="10">push()</label><br>
-                 <label><input type="radio" name="ques4" value="0">concat()</label><br>
-                <label><input type="radio" name="ques4" value="0">toLowercase()</label><br>
-               </div>
-
-             </div>
-
-
-             <div class="panel">
-               <h4>How many types of functions does javascript support</h4>
-               <div class="question5">
-                 <label>
-                 <input type="radio" name="ques5" value="0">1</label><br>
-                 <label><input type="radio" name="ques5" value="0">5</label><br>
-                <label><input type="radio" name="ques5" value="10">2</label><br>
-               </div>
-
-             </div>
-
-            <div class="panel">
-              <h4>How do we convert a number with a decimal point into an interger:</h4>
-              <div class="question6">
-                <label>
-                <input type="radio" name="ques6" value="0">parseInt()</label><br>
-                <label><input type="radio" name="ques6" value="10">concat()</label><br>
-               <label><input type="radio" name="ques6" value="0">parseFloat</label><br>
-             </div>
-            </div>
-
-          <div class="panel">
-            <h4>Which one of these is not a timer method in javascript</h4>
-            <div class="question7">
+    <div class="container"><div class="row">
+      <div class="col-md-6">
+        <div class="panel">
+          <form class="quiz">
+            <h4>Tick the correct abbreviation</h4>
+            <div class="question1">
               <label>
-              <input type="radio" name="ques7" value="0">setTimeout</label><br>
-              <label><input type="radio" name="ques7" value="10">setTimein</label><br>
-             <label><input type="radio" name="ques7" value="0">setInterval</label><br>
-           </div>
+              <input type="radio" name="abb" value="0">hmtl</label><br>
+              <label><input type="radio" name="abb" value="10">HTML</label><br>
+             <label><input type="radio" name="abb" value="0">THML</label><br>
+            </div>
           </div>
+
+        </div>
 
            <div class="panel">
-             <h4>Which one of these is not a looping structure in javascript</h4>
-             <div class="question8">
-               <label>
-               <input type="radio" name="ques8" value="10">if</label><br>
-               <label><input type="radio" name="ques8" value="0">for</label><br>
-              <label><input type="radio" name="ques8" value="0">while</label><br>
+             <h4>When was javascript created</h4>
+             <div class="question2">
+                 <label>
+                 <input type="radio" name="ques2" value="0">1990</label><br>
+                 <label><input type="radio" name="ques2" value="10">1995</label><br>
+                 <label><input type="radio" name="ques2" value="0">1999</label><br>
              </div>
            </div>
 
-            <div class="panel">
-              <h4>What would be the result of 5+6+"9"</h4>
-              <div class="question9">
-                <label>
-                <input type="radio" name="ques9" value="0">569</label><br>
-                <label><input type="radio" name="ques9" value="10">119</label><br>
-               <label><input type="radio" name="ques9" value="0">20</label><br>
-              </div>
+           <div class="panel">
+             <h4>Which one of these is not a javascript data type: </h4>
+             <div class="question3">
+               <label>
+               <input type="radio" name="ques3" value="0">boolean</label><br>
+               <label><input type="radio" name="ques3" value="0">String</label><br>
+              <label><input type="radio" name="ques3" value="0">undefined</label><br>
+               <label><input type="radio" name="ques3" value="10">html</label><br>
+             </div>
+           </div>
+
+           <div class="panel">
+             <h4>How do we add elements into an array</h4>
+             <div class="question4">
+               <label>
+               <input type="radio" name="ques4" value="10">push()</label><br>
+               <label><input type="radio" name="ques4" value="0">concat()</label><br>
+              <label><input type="radio" name="ques4" value="0">toLowercase()</label><br>
+             </div>
+
+           </div>
+
+
+           <div class="panel">
+             <h4>How many types of functions does javascript support</h4>
+             <div class="question5">
+               <label>
+               <input type="radio" name="ques5" value="0">1</label><br>
+               <label><input type="radio" name="ques5" value="0">5</label><br>
+              <label><input type="radio" name="ques5" value="10">2</label><br>
+             </div>
+
+           </div>
+
+          <div class="panel">
+            <h4>How do we convert a number with a decimal point into an interger:</h4>
+            <div class="question6">
+              <label>
+              <input type="radio" name="ques6" value="0">parseInt()</label><br>
+              <label><input type="radio" name="ques6" value="10">concat()</label><br>
+             <label><input type="radio" name="ques6" value="0">parseFloat</label><br>
+           </div>
+          </div>
+
+        <div class="panel">
+          <h4>Which one of these is not a timer method in javascript</h4>
+          <div class="question7">
+            <label>
+            <input type="radio" name="ques7" value="0">setTimeout</label><br>
+            <label><input type="radio" name="ques7" value="10">setTimein</label><br>
+           <label><input type="radio" name="ques7" value="0">setInterval</label><br>
+         </div>
+        </div>
+
+         <div class="panel">
+           <h4>Which one of these is not a looping structure in javascript</h4>
+           <div class="question8">
+             <label>
+             <input type="radio" name="ques8" value="10">if</label><br>
+             <label><input type="radio" name="ques8" value="0">for</label><br>
+            <label><input type="radio" name="ques8" value="0">while</label><br>
+           </div>
+         </div>
+
+          <div class="panel">
+            <h4>What would be the result of 5+6+"9"</h4>
+            <div class="question9">
+              <label>
+              <input type="radio" name="ques9" value="0">569</label><br>
+              <label><input type="radio" name="ques9" value="10">119</label><br>
+             <label><input type="radio" name="ques9" value="0">20</label><br>
+            </div>
+          </div>
+
+
+          <div class="panel">
+            <h4>Which one of these is not a type of pop up box</h4>
+            <div class="question10">
+              <label>
+              <input type="radio" name="ques10" value="0">alert</label><br>
+              <label><input type="radio" name="ques10" value="10">form</label><br>
+             <label><input type="radio" name="ques10" value="0">confirm</label><br>
             </div>
 
+          </div>
 
-            <div class="panel">
-              <h4>Which one of these is not a type of pop up box</h4>
-              <div class="question10">
-                <label>
-                <input type="radio" name="ques10" value="0">alert</label><br>
-                <label><input type="radio" name="ques10" value="10">form</label><br>
-               <label><input type="radio" name="ques10" value="0">confirm</label><br>
-              </div>
+          <button type="button" id="answer" value="get score">Get result</button>
 
-            </div>
-
-            <p><input type="button" name="" value="get score"></p>
-            </form>
-
-            <p id="output"></p>
-            <div class="progress">
-           <div class="progress-bar progress-bar-striped active" role="progressbar"aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%"> You did it</div>
- </div>
+          <p id="output"></p>
+          <div class="progress">
+         <div class="progress-bar progress-bar-striped active"  id="prog" role="progressbar"aria-valuenow="value" aria-valuemin="0" aria-valuemax="100" > You did it</div>
      </div>
-    </div>
+   </div>
+  </div>
   </body>
 </html>

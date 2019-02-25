@@ -18,11 +18,26 @@ h1{
 
 }
 
-.panel {
-  background-color: light blue;
+.container{
+  display: none;
+}
 
 }
 
 .form-group {
-  padding: 30px;
+  padding: 30px
+}
+
+.details>input{
+  margin: 10px;
+   width: 30%;
+   height: 3em;
+   border-radius: 10px;
+}
+
+.details {
+  margin-left: 30em;
+}
+.details>button {
+  margin-left: 7em;
 }
