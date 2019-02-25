@@ -41,3 +41,10 @@ h1{
 .details>button {
   margin-left: 7em;
 }
+.results {
+  display: none;
+  color: black;
+  font-size: 3em;
+  font-family: sans-serif;
+  text-align: center;
+}
